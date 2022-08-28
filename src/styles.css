@@ -1,0 +1,55 @@
+:root {
+  --background-color: #c4b5fd;
+  --secondary-background-color: #d4d4d4;
+  --highlight-color: #404040;
+}
+
+.App {
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: solid 1px black;
+  border-radius: 1rem;
+  background-color: var(--secondary-background-color);
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+li {
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px black solid;
+  width: 50%;
+  border-radius: 1rem;
+  background-color: var(--secondary-background-color);
+  font-size: 1.2rem;
+}
+
+#details {
+  font-size: 1rem;
+}
+
+#text-highlight {
+  color: var(--highlight-color);
+}
