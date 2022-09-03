@@ -6,8 +6,8 @@ import "./styles.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <p className="footer-copyright">© | 2022 | Prathamesh</p>
-      <div className="no-list-style horizontal-list text-center">
+      <p>© | 2022 | Prathamesh</p>
+      <div>
         <span>
           <a
             className="link"
