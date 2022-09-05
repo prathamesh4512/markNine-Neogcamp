@@ -14,8 +14,12 @@ export default function App() {
     <div className="App">
       <h1>💻 Best resource to learn Frontend development</h1>
 
-      {topics.map(function (topic) {
-        return <button onClick={() => onClickHandler(topic)}>{topic}</button>;
+      {topics.map(function (topic, index) {
+        return (
+          <button key={index} onClick={() => onClickHandler(topic)}>
+            {topic}
+          </button>
+        );
       })}
       <hr />
       <ul>
